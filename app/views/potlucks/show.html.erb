@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @potluck.name %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @potluck.location %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @potluck.description %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @potluck.date %>
+</p>
+
+<p>
+  <strong>Time:</strong>
+  <%= @potluck.time %>
+</p>
+
+<p>
+  <strong>Party size:</strong>
+  <%= @potluck.party_size %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @potluck.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_potluck_path(@potluck) %> |
+<%= link_to 'Back', potlucks_path %>
