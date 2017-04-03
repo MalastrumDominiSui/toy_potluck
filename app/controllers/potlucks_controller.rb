@@ -1,7 +1,6 @@
 class PotlucksController < ApplicationController
   before_action :set_potluck, only: [:show, :edit, :update, :destroy]
-  has_many :items, dependent: :destroy
-  belongs_to :user
+  
 
   # GET /potlucks
   # GET /potlucks.json
