@@ -2,7 +2,6 @@ Rails.application.routes.draw do
   resources :items
   resources :potlucks
   resources :users
-  resources :users
   get 'home/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
