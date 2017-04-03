@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
+  has_many :potlucks, dependent: :destroy
 
   # GET /users
   # GET /users.json
