@@ -1,2 +1,13 @@
-<h1>Hello World#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div class="background">
+	<div class="container">
+		<div class="jumbotron jumbo">
+			<div class="container">
+				<h1>Make Potlucks Easy</h1>
+				<p> Join. Create. Share. Reduce your dish repetition with our smart potluck solution.</p>
+				<% if session[:user_id].nil? %>
+					<p><a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Create an Account</a></p>
+				<% end %>
+			</div>
+		</div>
+    </div>
+</div>
